@@ -17,7 +17,6 @@ class MyAI( AI ):
 
     def __init__(self, rowDimension, colDimension, totalMines, startX, startY):
         ########################################################################
-        #							YOUR CODE BEGINS						   #
         ########################################################################
         self.board = self.create_board(rowDimension, colDimension)
         self.safe_to_uncover = set()
